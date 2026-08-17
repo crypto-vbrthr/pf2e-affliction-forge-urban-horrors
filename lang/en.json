@@ -1,0 +1,573 @@
+{
+  "PF2E_AFFLICTION_UH": {
+    "Module": {
+      "Title": "PF2E Affliction Forge: Urban Horrors",
+      "Library": "Urban Horrors",
+      "LibraryDescription": "Original diseases, poisons, and curses for cities, intrigue, and sinister districts with semantic Creature Forge tags.",
+      "SyncFailed": "Urban Horrors could not synchronize its library. See console."
+    },
+    "Content": {
+      "alley-cough": {
+        "Name": "Alley Cough",
+        "Description": "A rasping cough born in crowded alleys and dusty sleeping quarters.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "fatigued."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "sickened 1, fatigued."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "1d6 poison damage, sickened 1, fatigued."
+        }
+      },
+      "ratbite-fever": {
+        "Name": "Rat-Bite Fever",
+        "Description": "An aggressive fever spread by the bites of city rats.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "1d6 poison damage, sickened 1, fatigued."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "1d6 poison damage, drained 1, sickened 1."
+        }
+      },
+      "sewer-bloom": {
+        "Name": "Sewer Bloom",
+        "Description": "Damp spore colonies thrive in sewers and lodge in the respiratory tract.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "1d6 poison damage, sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "1d6 poison damage, drained 1, sickened 1."
+        }
+      },
+      "quiet-knife-resin": {
+        "Name": "Quiet-Knife Resin",
+        "Description": "A sticky blade poison that leaches strength and coordination from the limbs.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "1d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 poison damage, clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "2d6 poison damage, clumsy 1, slowed 1."
+        }
+      },
+      "red-ledger-curse": {
+        "Name": "Red-Ledger Curse",
+        "Description": "Debts, oaths, and broken contracts become a curse written into the debtor’s mind.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "stupefied 1, frightened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "stupefied 2, frightened 1. concentrate actions: flat check DC 5.",
+          "Gate": "Occult or toxic concentration interference"
+        }
+      },
+      "night-market-venom": {
+        "Name": "Night-Market Venom",
+        "Description": "A favored fast-acting blade venom from illicit market stalls.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "2d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 poison damage, enfeebled 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 poison damage, enfeebled 1, slowed 1."
+        }
+      },
+      "tenement-pox": {
+        "Name": "Tenement Pox",
+        "Description": "A highly contagious pox that races through crowded tenement blocks.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 poison damage, sickened 1, fatigued."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "2d6 poison damage, drained 1, sickened 2."
+        }
+      },
+      "whisper-alley-hex": {
+        "Name": "Whisper-Alley Hex",
+        "Description": "A restless hex that swallows voices and lays fear across narrow alleys.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "frightened 1, stupefied 1. speech blocked."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "2d6 spirit damage, stupefied 2. speech blocked; concentrate actions: flat check DC 5.",
+          "Gate": "Occult or toxic concentration interference"
+        }
+      },
+      "guildbreaker-poison": {
+        "Name": "Guildbreaker Poison",
+        "Description": "An expensive assassination poison favored against guildmasters and rivals.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "2d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 poison damage, enfeebled 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 poison damage, drained 1, enfeebled 1."
+        }
+      },
+      "graveyard-miasma": {
+        "Name": "Graveyard Miasma",
+        "Description": "Deathly energy gathers in old cemetery fog and seeps into living bodies.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "fatigued."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 void damage, drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 void damage, drained 1, sickened 1."
+        }
+      },
+      "watchmans-sleep": {
+        "Name": "Watchman’s Sleep",
+        "Description": "A subtle sedative slipped into drinks, soups, and watch-house coffee.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "slowed 1, stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "slowed 2, stupefied 2. concentrate actions: flat check DC 5.",
+          "Gate": "Occult or toxic concentration interference"
+        }
+      },
+      "bell-tower-curse": {
+        "Name": "Bell-Tower Curse",
+        "Description": "The echo of a cursed bell gnaws at memory, speech, and courage.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 spirit damage, frightened 1, stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 spirit damage, stupefied 2. speech blocked; concentrate actions: flat check DC 5.",
+          "Gate": "Occult or toxic concentration interference"
+        }
+      },
+      "red-quay-venom": {
+        "Name": "Red-Quay Venom",
+        "Description": "A blood-thinning blade poison distilled from the fisheries of the Red Quay.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "3d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "3d6 poison damage, 1d6 persistent bleed damage."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 poison damage, 1d6 persistent bleed damage, drained 1."
+        }
+      },
+      "foundry-lung": {
+        "Name": "Foundry Lung",
+        "Description": "Superheated metal dust and alchemical fumes burn deep into the lungs.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "fatigued, sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "3d6 fire damage, drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 fire damage, 1d6 persistent fire damage, drained 1. affliction damage has restricted healing."
+        }
+      },
+      "maskmakers-blight": {
+        "Name": "Maskmaker’s Blight",
+        "Description": "Cursed masks distort the wearer’s face, voice, and sense of self.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "stupefied 1, clumsy 1. concentrate actions: flat check DC 5.",
+          "Gate": "Occult or toxic concentration interference"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 mental damage, stupefied 2, clumsy 1. speech blocked; concentrate actions: flat check DC 5.",
+          "Gate": "Occult or toxic concentration interference"
+        }
+      },
+      "kings-well-fever": {
+        "Name": "King’s-Well Fever",
+        "Description": "A deliberately tainted well can spread this fever across an entire district.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "2d6 poison damage, sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "3d6 poison damage, drained 1, sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 poison damage, drained 2, sickened 2."
+        }
+      },
+      "ink-eater-hex": {
+        "Name": "Ink-Eater Hex",
+        "Description": "An occult hex that erases written words and eventually spoken language from the mind.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "3d6 mental damage, stupefied 1. speech blocked."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 mental damage, stupefied 2. speech blocked; concentrate actions: flat check DC 7.",
+          "Gate": "Occult or toxic concentration interference"
+        }
+      },
+      "cathedral-ash": {
+        "Name": "Cathedral Ash",
+        "Description": "Desecrated reliquary ash harms body and soul alike.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "fatigued."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "3d6 spirit damage, drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 spirit damage, drained 2. affliction damage has restricted healing."
+        }
+      },
+      "moonless-alley-toxin": {
+        "Name": "Moonless-Alley Toxin",
+        "Description": "A shadow-laced blade toxin made for assassinations without witnesses.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "3d6 poison damage, 1d6 void damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 poison damage, stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 poison damage, 2d6 void damage, stupefied 2."
+        }
+      },
+      "plaguehouse-bloom": {
+        "Name": "Plaguehouse Bloom",
+        "Description": "Spores flourish on cloth, timber, and bone in abandoned plague houses.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "3d6 poison damage, sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 poison damage, drained 1, sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 poison damage, drained 2, sickened 2. affliction damage has restricted healing."
+        }
+      },
+      "debt-collectors-mark": {
+        "Name": "Debt Collector’s Mark",
+        "Description": "A binding curse that turns debt into physical and spiritual wasting.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "3d6 spirit damage, drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 spirit damage, drained 2. affliction damage has restricted healing; condition cannot fall below its minimum during this stage."
+        }
+      },
+      "black-carriage-fever": {
+        "Name": "Black-Carriage Fever",
+        "Description": "An undead fever said to follow the processions of plague-dead coachmen.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "3d6 void damage, fatigued."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 void damage, drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 void damage, drained 2, slowed 1."
+        }
+      },
+      "courtiers-last-toast": {
+        "Name": "Courtier’s Last Toast",
+        "Description": "A luxurious poison that slowly smothers taste, thought, and movement.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "3d6 poison damage, stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 poison damage, stupefied 2, slowed 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 poison damage, stupefied 2, slowed 2. concentrate actions: flat check DC 7.",
+          "Gate": "Occult or toxic concentration interference"
+        }
+      },
+      "sewer-crown": {
+        "Name": "Sewer Crown",
+        "Description": "A mutating curse from the oldest depths beneath the city.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "sickened 1, clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 poison damage, clumsy 2, sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 poison damage, drained 1, clumsy 2. affliction damage has restricted healing."
+        }
+      },
+      "saintless-benediction": {
+        "Name": "Saintless Benediction",
+        "Description": "A twisted blessing that turns prayer, speech, and vitality against the victim.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "frightened 1, stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 spirit damage, stupefied 2. speech blocked; concentrate actions: flat check DC 7.",
+          "Gate": "Occult or toxic concentration interference"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 spirit damage, drained 1, stupefied 2. speech blocked; concentrate actions: flat check DC 7.",
+          "Gate": "Occult or toxic concentration interference"
+        }
+      },
+      "city-eater-mold": {
+        "Name": "City-Eater Mold",
+        "Description": "An aggressive mold that colonizes masonry, refuse, and living tissue alike.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "4d6 poison damage, sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "5d6 poison damage, drained 1, sickened 2."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "6d6 poison damage, drained 2, slowed 1. affliction damage has restricted healing."
+        }
+      },
+      "glass-district-curse": {
+        "Name": "Glass-District Curse",
+        "Description": "Arcane reflections fracture perception and thought into a thousand false images.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "dazzled, stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 mental damage, stupefied 2. concentrate actions: flat check DC 7.",
+          "Gate": "Occult or toxic concentration interference"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 mental damage, slowed 1, stupefied 2. concentrate actions: flat check DC 7.",
+          "Gate": "Occult or toxic concentration interference"
+        }
+      },
+      "midnight-procession": {
+        "Name": "Midnight Procession",
+        "Description": "Those who follow a ghostly procession too long carry its death-shadow with them.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "5d6 spirit damage, drained 1, frightened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "6d6 void damage, drained 2, slowed 1. condition cannot fall below its minimum during this stage."
+        }
+      },
+      "crown-sewer-venom": {
+        "Name": "Crown-Sewer Venom",
+        "Description": "A concentrated venom harvested from the deepest drains beneath the palace district.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "5d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "6d6 poison damage, drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "7d6 poison damage, drained 2, slowed 1."
+        }
+      },
+      "thousand-windows-blight": {
+        "Name": "Thousand-Windows Blight",
+        "Description": "The sensation of being watched from every window becomes a genuine mental disease.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "4d6 mental damage, stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "5d6 mental damage, stupefied 2, fatigued. concentrate actions: flat check DC 7.",
+          "Gate": "Occult or toxic concentration interference"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "6d6 mental damage, drained 1, stupefied 2. speech blocked; concentrate actions: flat check DC 7.",
+          "Gate": "Occult or toxic concentration interference"
+        }
+      },
+      "empty-throne-curse": {
+        "Name": "Empty-Throne Curse",
+        "Description": "A sovereignty curse that turns ambition into fear, wasting, and shadow.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "5d6 spirit damage, frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "6d6 spirit damage, drained 1, stupefied 1. concentrate actions: flat check DC 9.",
+          "Gate": "Occult or toxic concentration interference"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "7d6 void damage, drained 2, stupefied 2. speech blocked; concentrate actions: flat check DC 9; condition cannot fall below its minimum during this stage.",
+          "Gate": "Occult or toxic concentration interference"
+        }
+      },
+      "last-bell-dead-city": {
+        "Name": "Last Bell of the Dead City",
+        "Description": "The final toll of a lost city calls the living into the ranks of its dead.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "6d6 spirit damage, drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "7d6 void damage, drained 2, slowed 1. concentrate actions: flat check DC 9.",
+          "Gate": "Occult or toxic concentration interference"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "8d6 void damage, drained 2, death effect. affliction damage has restricted healing; condition cannot fall below its minimum during this stage."
+        }
+      }
+    }
+  }
+}

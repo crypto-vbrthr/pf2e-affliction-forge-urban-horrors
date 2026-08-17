@@ -1,0 +1,573 @@
+{
+  "PF2E_AFFLICTION_UH": {
+    "Module": {
+      "Title": "PF2E Affliction Forge: Urban Horrors",
+      "Library": "Stadtschrecken",
+      "LibraryDescription": "Originale Krankheiten, Gifte und Flüche für Städte, Intrigen und düstere Viertel mit semantischen Creature-Forge-Tags.",
+      "SyncFailed": "Urban Horrors konnte seine Bibliothek nicht synchronisieren. Siehe Konsole."
+    },
+    "Content": {
+      "alley-cough": {
+        "Name": "Gassenhusten",
+        "Description": "Ein rauer Husten aus überfüllten Gassen und staubigen Schlafquartieren.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Erschöpft."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Kränkelnd 1, Erschöpft."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "1d6 Giftschaden, Kränkelnd 1, Erschöpft."
+        }
+      },
+      "ratbite-fever": {
+        "Name": "Rattenbissfieber",
+        "Description": "Ein aggressives Fieber, das durch die Bisse städtischer Ratten übertragen wird.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "1d6 Giftschaden, Kränkelnd 1, Erschöpft."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "1d6 Giftschaden, Ausgelaugt 1, Kränkelnd 1."
+        }
+      },
+      "sewer-bloom": {
+        "Name": "Kanalblüte",
+        "Description": "Feuchte Sporenkolonien gedeihen in Kanälen und setzen sich in den Atemwegen fest.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "1d6 Giftschaden, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "1d6 Giftschaden, Ausgelaugt 1, Kränkelnd 1."
+        }
+      },
+      "quiet-knife-resin": {
+        "Name": "Harz der stillen Klinge",
+        "Description": "Ein zähes Klingengift, das Kraft und Beweglichkeit aus den Gliedern zieht.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "1d6 Giftschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2d6 Giftschaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "2d6 Giftschaden, Unbeholfen 1, Verlangsamt 1."
+        }
+      },
+      "red-ledger-curse": {
+        "Name": "Fluch des roten Hauptbuchs",
+        "Description": "Schulden, Schwüre und gebrochene Verträge werden zu einem Fluch im Geist des Schuldners.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Benommen 1, Verängstigt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Benommen 2, Verängstigt 1. Konzentrationshandlungen: Einfacher Wurf SG 5.",
+          "Gate": "Okkulte oder toxische Konzentrationsstörung"
+        }
+      },
+      "night-market-venom": {
+        "Name": "Nachtmarktgift",
+        "Description": "Ein beliebtes, schnell wirkendes Klingengift aus illegalen Marktständen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "2d6 Giftschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2d6 Giftschaden, Entkräftet 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3d6 Giftschaden, Entkräftet 1, Verlangsamt 1."
+        }
+      },
+      "tenement-pox": {
+        "Name": "Mietskasernenpocken",
+        "Description": "Ein hoch ansteckender Ausschlag, der in dicht bewohnten Häuserblocks grassiert.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2d6 Giftschaden, Kränkelnd 1, Erschöpft."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "2d6 Giftschaden, Ausgelaugt 1, Kränkelnd 2."
+        }
+      },
+      "whisper-alley-hex": {
+        "Name": "Flüstergassenhex",
+        "Description": "Ein ruheloser Fluch, der Stimmen verschluckt und Angst in enge Gassen legt.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Verängstigt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Verängstigt 1, Benommen 1. Sprechen blockiert."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "2d6 Geistschaden, Benommen 2. Sprechen blockiert; Konzentrationshandlungen: Einfacher Wurf SG 5.",
+          "Gate": "Okkulte oder toxische Konzentrationsstörung"
+        }
+      },
+      "guildbreaker-poison": {
+        "Name": "Gildenbrechergift",
+        "Description": "Ein teures Attentatsgift, das bevorzugt gegen Zunftmeister und Rivalen eingesetzt wird.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "2d6 Giftschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2d6 Giftschaden, Entkräftet 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3d6 Giftschaden, Ausgelaugt 1, Entkräftet 1."
+        }
+      },
+      "graveyard-miasma": {
+        "Name": "Friedhofsmiasma",
+        "Description": "Totenenergie sammelt sich in altem Grabnebel und sickert in lebende Körper.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Erschöpft."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2d6 Leerschaden, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3d6 Leerschaden, Ausgelaugt 1, Kränkelnd 1."
+        }
+      },
+      "watchmans-sleep": {
+        "Name": "Wachmannsschlaf",
+        "Description": "Ein unauffälliges Betäubungsmittel für Getränke, Suppen und Wachstubenkaffee.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Verlangsamt 1, Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Verlangsamt 2, Benommen 2. Konzentrationshandlungen: Einfacher Wurf SG 5.",
+          "Gate": "Okkulte oder toxische Konzentrationsstörung"
+        }
+      },
+      "bell-tower-curse": {
+        "Name": "Glockenturmfluch",
+        "Description": "Der Nachhall einer verfluchten Glocke frisst sich in Erinnerung, Sprache und Mut.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Verängstigt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2d6 Geistschaden, Verängstigt 1, Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3d6 Geistschaden, Benommen 2. Sprechen blockiert; Konzentrationshandlungen: Einfacher Wurf SG 5.",
+          "Gate": "Okkulte oder toxische Konzentrationsstörung"
+        }
+      },
+      "red-quay-venom": {
+        "Name": "Rotkaigift",
+        "Description": "Ein blutverdünnendes Klingengift aus den Fischereien des Rotkais.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "3d6 Giftschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "3d6 Giftschaden, 1d6 anhaltenden Blutungsschaden."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4d6 Giftschaden, 1d6 anhaltenden Blutungsschaden, Ausgelaugt 1."
+        }
+      },
+      "foundry-lung": {
+        "Name": "Gießereilunge",
+        "Description": "Überhitzter Metallstaub und alchemistische Dämpfe brennen sich tief in die Atemwege.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Erschöpft, Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "3d6 Feuerschaden, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3d6 Feuerschaden, 1d6 anhaltenden Feuerschaden, Ausgelaugt 1. Leidensschaden ist eingeschränkt heilbar."
+        }
+      },
+      "maskmakers-blight": {
+        "Name": "Maskenmacherpest",
+        "Description": "Verfluchte Masken verschieben Gesicht, Stimme und Selbstbild ihres Trägers.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Benommen 1, Unbeholfen 1. Konzentrationshandlungen: Einfacher Wurf SG 5.",
+          "Gate": "Okkulte oder toxische Konzentrationsstörung"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3d6 mentalen Schaden, Benommen 2, Unbeholfen 1. Sprechen blockiert; Konzentrationshandlungen: Einfacher Wurf SG 5.",
+          "Gate": "Okkulte oder toxische Konzentrationsstörung"
+        }
+      },
+      "kings-well-fever": {
+        "Name": "Königsbrunnenfieber",
+        "Description": "Eine absichtlich verdorbene Wasserquelle kann mit diesem Fieber einen ganzen Bezirk treffen.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "2d6 Giftschaden, Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "3d6 Giftschaden, Ausgelaugt 1, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4d6 Giftschaden, Ausgelaugt 2, Kränkelnd 2."
+        }
+      },
+      "ink-eater-hex": {
+        "Name": "Tintenfresserhex",
+        "Description": "Ein okkulter Fluch, der geschriebene Worte und schließlich auch gesprochene Sprache aus dem Geist löscht.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "3d6 mentalen Schaden, Benommen 1. Sprechen blockiert."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4d6 mentalen Schaden, Benommen 2. Sprechen blockiert; Konzentrationshandlungen: Einfacher Wurf SG 7.",
+          "Gate": "Okkulte oder toxische Konzentrationsstörung"
+        }
+      },
+      "cathedral-ash": {
+        "Name": "Kathedralenasche",
+        "Description": "Entweihte Asche aus Reliquiaren schädigt Körper und Seele gleichermaßen.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Erschöpft."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "3d6 Geistschaden, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4d6 Geistschaden, Ausgelaugt 2. Leidensschaden ist eingeschränkt heilbar."
+        }
+      },
+      "moonless-alley-toxin": {
+        "Name": "Toxin der mondlosen Gasse",
+        "Description": "Ein schattengetränktes Klingengift für Attentate ohne Zeugen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "3d6 Giftschaden, 1d6 Leerschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4d6 Giftschaden, Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4d6 Giftschaden, 2d6 Leerschaden, Benommen 2."
+        }
+      },
+      "plaguehouse-bloom": {
+        "Name": "Seuchenhausblüte",
+        "Description": "Sporen wachsen in verlassenen Seuchenhäusern auf Stoff, Holz und Knochen.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "3d6 Giftschaden, Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4d6 Giftschaden, Ausgelaugt 1, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4d6 Giftschaden, Ausgelaugt 2, Kränkelnd 2. Leidensschaden ist eingeschränkt heilbar."
+        }
+      },
+      "debt-collectors-mark": {
+        "Name": "Mal des Schuldeneintreibers",
+        "Description": "Ein bindender Fluch, der Schuld in körperliche und seelische Auszehrung verwandelt.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "3d6 Geistschaden, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4d6 Geistschaden, Ausgelaugt 2. Leidensschaden ist eingeschränkt heilbar; Zustand kann während dieser Phase nicht unter den Mindestwert sinken."
+        }
+      },
+      "black-carriage-fever": {
+        "Name": "Schwarzkutschenfieber",
+        "Description": "Ein untotes Fieber, das angeblich den Prozessionen pesttoter Kutscher folgt.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "3d6 Leerschaden, Erschöpft."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4d6 Leerschaden, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5d6 Leerschaden, Ausgelaugt 2, Verlangsamt 1."
+        }
+      },
+      "courtiers-last-toast": {
+        "Name": "Letzter Trunk des Höflings",
+        "Description": "Ein luxuriöses Gift, das Geschmack, Geist und Bewegungen langsam erstickt.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "3d6 Giftschaden, Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4d6 Giftschaden, Benommen 2, Verlangsamt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5d6 Giftschaden, Benommen 2, Verlangsamt 2. Konzentrationshandlungen: Einfacher Wurf SG 7.",
+          "Gate": "Okkulte oder toxische Konzentrationsstörung"
+        }
+      },
+      "sewer-crown": {
+        "Name": "Kanalkrone",
+        "Description": "Ein mutierender Fluch aus den ältesten Tiefen unter der Stadt.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Kränkelnd 1, Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4d6 Giftschaden, Unbeholfen 2, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5d6 Giftschaden, Ausgelaugt 1, Unbeholfen 2. Leidensschaden ist eingeschränkt heilbar."
+        }
+      },
+      "saintless-benediction": {
+        "Name": "Heiligenlose Benediktion",
+        "Description": "Ein verdrehter Segen, der Gebet, Sprache und Lebenskraft gegen das Opfer wendet.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Verängstigt 1, Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4d6 Geistschaden, Benommen 2. Sprechen blockiert; Konzentrationshandlungen: Einfacher Wurf SG 7.",
+          "Gate": "Okkulte oder toxische Konzentrationsstörung"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5d6 Geistschaden, Ausgelaugt 1, Benommen 2. Sprechen blockiert; Konzentrationshandlungen: Einfacher Wurf SG 7.",
+          "Gate": "Okkulte oder toxische Konzentrationsstörung"
+        }
+      },
+      "city-eater-mold": {
+        "Name": "Stadtfresserschimmel",
+        "Description": "Ein aggressiver Schimmel, der Mauerwerk, Abfall und lebendes Gewebe gleichermaßen besiedelt.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "4d6 Giftschaden, Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "5d6 Giftschaden, Ausgelaugt 1, Kränkelnd 2."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "6d6 Giftschaden, Ausgelaugt 2, Verlangsamt 1. Leidensschaden ist eingeschränkt heilbar."
+        }
+      },
+      "glass-district-curse": {
+        "Name": "Fluch des Glasviertels",
+        "Description": "Arkane Reflexionen zersplittern Wahrnehmung und Gedanken in tausend falsche Bilder.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Geblendet, Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4d6 mentalen Schaden, Benommen 2. Konzentrationshandlungen: Einfacher Wurf SG 7.",
+          "Gate": "Okkulte oder toxische Konzentrationsstörung"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5d6 mentalen Schaden, Verlangsamt 1, Benommen 2. Konzentrationshandlungen: Einfacher Wurf SG 7.",
+          "Gate": "Okkulte oder toxische Konzentrationsstörung"
+        }
+      },
+      "midnight-procession": {
+        "Name": "Mitternachtsprozession",
+        "Description": "Wer einer geisterhaften Prozession zu lange folgt, trägt ihren Todesschatten mit sich.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Verängstigt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "5d6 Geistschaden, Ausgelaugt 1, Verängstigt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "6d6 Leerschaden, Ausgelaugt 2, Verlangsamt 1. Zustand kann während dieser Phase nicht unter den Mindestwert sinken."
+        }
+      },
+      "crown-sewer-venom": {
+        "Name": "Kronenkanalgift",
+        "Description": "Ein hochkonzentriertes Gift aus den tiefsten Schächten unter dem Palastbezirk.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "5d6 Giftschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "6d6 Giftschaden, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "7d6 Giftschaden, Ausgelaugt 2, Verlangsamt 1."
+        }
+      },
+      "thousand-windows-blight": {
+        "Name": "Pest der tausend Fenster",
+        "Description": "Das Gefühl, aus jedem Fenster beobachtet zu werden, wird zu einer echten geistigen Krankheit.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "4d6 mentalen Schaden, Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "5d6 mentalen Schaden, Benommen 2, Erschöpft. Konzentrationshandlungen: Einfacher Wurf SG 7.",
+          "Gate": "Okkulte oder toxische Konzentrationsstörung"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "6d6 mentalen Schaden, Ausgelaugt 1, Benommen 2. Sprechen blockiert; Konzentrationshandlungen: Einfacher Wurf SG 7.",
+          "Gate": "Okkulte oder toxische Konzentrationsstörung"
+        }
+      },
+      "empty-throne-curse": {
+        "Name": "Fluch des leeren Throns",
+        "Description": "Ein Herrschaftsfluch, der Machtgier in Furcht, Auszehrung und Schatten verwandelt.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "5d6 Geistschaden, Verängstigt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "6d6 Geistschaden, Ausgelaugt 1, Benommen 1. Konzentrationshandlungen: Einfacher Wurf SG 9.",
+          "Gate": "Okkulte oder toxische Konzentrationsstörung"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "7d6 Leerschaden, Ausgelaugt 2, Benommen 2. Sprechen blockiert; Konzentrationshandlungen: Einfacher Wurf SG 9; Zustand kann während dieser Phase nicht unter den Mindestwert sinken.",
+          "Gate": "Okkulte oder toxische Konzentrationsstörung"
+        }
+      },
+      "last-bell-dead-city": {
+        "Name": "Letzte Glocke der toten Stadt",
+        "Description": "Der letzte Schlag einer verlorenen Stadt ruft die Lebenden in die Reihen ihrer Toten.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "6d6 Geistschaden, Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "7d6 Leerschaden, Ausgelaugt 2, Verlangsamt 1. Konzentrationshandlungen: Einfacher Wurf SG 9.",
+          "Gate": "Okkulte oder toxische Konzentrationsstörung"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "8d6 Leerschaden, Ausgelaugt 2, Todeseffekt. Leidensschaden ist eingeschränkt heilbar; Zustand kann während dieser Phase nicht unter den Mindestwert sinken."
+        }
+      }
+    }
+  }
+}
