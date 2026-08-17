@@ -24,23 +24,6 @@
           "Description": "1d6 Giftschaden, Kränkelnd 1, Erschöpft."
         }
       },
-      "ratbite-fever": {
-        "Name": "Rattenbissfieber",
-        "Description": "Ein aggressives Fieber, das durch die Bisse städtischer Ratten übertragen wird.",
-        "SaveLabel": "Krankheits-Rettungswurf",
-        "Stage1": {
-          "Name": "Phase 1",
-          "Description": "Kränkelnd 1."
-        },
-        "Stage2": {
-          "Name": "Phase 2",
-          "Description": "1d6 Giftschaden, Kränkelnd 1, Erschöpft."
-        },
-        "Stage3": {
-          "Name": "Phase 3",
-          "Description": "1d6 Giftschaden, Ausgelaugt 1, Kränkelnd 1."
-        }
-      },
       "sewer-bloom": {
         "Name": "Kanalblüte",
         "Description": "Feuchte Sporenkolonien gedeihen in Kanälen und setzen sich in den Atemwegen fest.",
@@ -406,23 +389,6 @@
           "Gate": "Okkulte oder toxische Konzentrationsstörung"
         }
       },
-      "sewer-crown": {
-        "Name": "Kanalkrone",
-        "Description": "Ein mutierender Fluch aus den ältesten Tiefen unter der Stadt.",
-        "SaveLabel": "Fluch-Rettungswurf",
-        "Stage1": {
-          "Name": "Phase 1",
-          "Description": "Kränkelnd 1, Unbeholfen 1."
-        },
-        "Stage2": {
-          "Name": "Phase 2",
-          "Description": "4d6 Giftschaden, Unbeholfen 2, Kränkelnd 1."
-        },
-        "Stage3": {
-          "Name": "Phase 3",
-          "Description": "5d6 Giftschaden, Ausgelaugt 1, Unbeholfen 2. Leidensschaden ist eingeschränkt heilbar."
-        }
-      },
       "saintless-benediction": {
         "Name": "Heiligenlose Benediktion",
         "Description": "Ein verdrehter Segen, der Gebet, Sprache und Lebenskraft gegen das Opfer wendet.",
@@ -566,6 +532,40 @@
         "Stage3": {
           "Name": "Phase 3",
           "Description": "8d6 Leerschaden, Ausgelaugt 2, Todeseffekt. Leidensschaden ist eingeschränkt heilbar; Zustand kann während dieser Phase nicht unter den Mindestwert sinken."
+        }
+      },
+      "gutterblood-fever": {
+        "Name": "Gossenblutfieber",
+        "Description": "Die Bisse aasfressender Stadtratten übertragen einen aggressiven Blutinfekt, der binnen Stunden Fieber, Übelkeit und Kreislaufschwäche auslöst.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1W6 Giftschaden, Kränkelnd 1, Erschöpft."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 1W6 Giftschaden, Ausgelaugt 1, Kränkelnd 1."
+        }
+      },
+      "undercity-crown": {
+        "Name": "Unterstadtkrone",
+        "Description": "Eine okkulte Wucherung aus uralten Kanälen krönt ihr Opfer mit unsichtbaren Auswüchsen und zieht dessen Körper langsam in das verfluchte Ökosystem der Unterstadt.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Kränkelnd 1, Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 4W6 Leerschaden, Unbeholfen 2, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 5W6 Leerschaden, Ausgelaugt 1, Unbeholfen 2. Durch dieses Leiden verursachter Schaden kann nicht geheilt werden."
         }
       }
     }

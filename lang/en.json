@@ -24,23 +24,6 @@
           "Description": "1d6 poison damage, sickened 1, fatigued."
         }
       },
-      "ratbite-fever": {
-        "Name": "Rat-Bite Fever",
-        "Description": "An aggressive fever spread by the bites of city rats.",
-        "SaveLabel": "Disease Save",
-        "Stage1": {
-          "Name": "Stage 1",
-          "Description": "sickened 1."
-        },
-        "Stage2": {
-          "Name": "Stage 2",
-          "Description": "1d6 poison damage, sickened 1, fatigued."
-        },
-        "Stage3": {
-          "Name": "Stage 3",
-          "Description": "1d6 poison damage, drained 1, sickened 1."
-        }
-      },
       "sewer-bloom": {
         "Name": "Sewer Bloom",
         "Description": "Damp spore colonies thrive in sewers and lodge in the respiratory tract.",
@@ -406,23 +389,6 @@
           "Gate": "Occult or toxic concentration interference"
         }
       },
-      "sewer-crown": {
-        "Name": "Sewer Crown",
-        "Description": "A mutating curse from the oldest depths beneath the city.",
-        "SaveLabel": "Curse Save",
-        "Stage1": {
-          "Name": "Stage 1",
-          "Description": "sickened 1, clumsy 1."
-        },
-        "Stage2": {
-          "Name": "Stage 2",
-          "Description": "4d6 poison damage, clumsy 2, sickened 1."
-        },
-        "Stage3": {
-          "Name": "Stage 3",
-          "Description": "5d6 poison damage, drained 1, clumsy 2. affliction damage has restricted healing."
-        }
-      },
       "saintless-benediction": {
         "Name": "Saintless Benediction",
         "Description": "A twisted blessing that turns prayer, speech, and vitality against the victim.",
@@ -566,6 +532,40 @@
         "Stage3": {
           "Name": "Stage 3",
           "Description": "8d6 void damage, drained 2, death effect. affliction damage has restricted healing; condition cannot fall below its minimum during this stage."
+        }
+      },
+      "gutterblood-fever": {
+        "Name": "Gutterblood Fever",
+        "Description": "Bites from carrion-fed city rats transmit an aggressive blood infection that brings fever, nausea, and circulatory weakness within hours.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d6 poison damage, Sickened 1, Fatigued."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 1d6 poison damage, Drained 1, Sickened 1."
+        }
+      },
+      "undercity-crown": {
+        "Name": "Undercity Crown",
+        "Description": "An occult growth from ancient sewers crowns its victim with unseen excrescences and slowly draws the body into the cursed ecosystem beneath the streets.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Sickened 1, Clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 4d6 void damage, Clumsy 2, Sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 5d6 void damage, Drained 1, Clumsy 2. Damage caused by this affliction cannot be healed."
         }
       }
     }

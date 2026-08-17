@@ -1,5 +1,5 @@
 const MODULE_ID = "pf2e-affliction-forge-urban-horrors";
-const CONTENT_VERSION = "0.1.0";
+const CONTENT_VERSION = "0.1.1";
 const I18N_PREFIX = "PF2E_AFFLICTION_UH.Content";
 
 const token = (slug, key) => `@i18n:${I18N_PREFIX}.${slug}.${key}`;
@@ -138,7 +138,7 @@ const SPECS = [
     "injuryPoison": false
   },
   {
-    "slug": "ratbite-fever",
+    "slug": "gutterblood-fever",
     "level": 1,
     "dc": 15,
     "type": "disease",
@@ -150,10 +150,12 @@ const SPECS = [
         "humanoid"
       ],
       "habitat": [
-        "urban"
+        "urban",
+        "underground"
       ],
       "theme": [
-        "disease"
+        "disease",
+        "blood"
       ],
       "origin": [
         "natural"
@@ -2415,7 +2417,7 @@ const SPECS = [
     "injuryPoison": false
   },
   {
-    "slug": "sewer-crown",
+    "slug": "undercity-crown",
     "level": 15,
     "dc": 34,
     "type": "curse",
@@ -2473,7 +2475,7 @@ const SPECS = [
           [
             "damage",
             "4d6",
-            "poison"
+            "void"
           ],
           [
             "condition",
@@ -2497,7 +2499,7 @@ const SPECS = [
           [
             "damage",
             "5d6",
-            "poison"
+            "void"
           ],
           [
             "condition",

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1
+
+- Reworked two cross-library overlaps into **Gutterblood Fever / Gossenblutfieber** and **Undercity Crown / Unterstadtkrone** with distinct identities and mechanics.
+- Participates in the Library Family Consistency & Release Hardening review.
+
 ## 0.1.0
 
 - Initial Urban Horrors library release.
