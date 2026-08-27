@@ -48,5 +48,8 @@
     }
   ],
   "license": "LICENSE",
-  "readme": "README.md"
+  "readme": "README.md",
+  "url": "https://github.com/crypto-vbrthr/pf2e-affliction-forge-urban-horrors",
+  "manifest": "https://raw.githubusercontent.com/crypto-vbrthr/pf2e-affliction-forge-urban-horrors/main/module.json",
+  "download": "https://github.com/crypto-vbrthr/pf2e-affliction-forge-urban-horrors/releases/download/v0.1.1/pf2e-affliction-forge-urban-horrors.zip"
 }
